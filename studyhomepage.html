@@ -1,0 +1,518 @@
+<html>
+<head>
+    <style>
+        *{
+            padding: 0px;
+            margin:0px;
+        }
+         .header{
+            width: 1366px;
+            height: 40px;
+            float: left;
+             background: black;
+             color: white;
+             box-sizing: border-box;
+            
+        }
+        .header a{
+            text-decoration: none;
+        }
+        .header ul li{
+            
+            list-style: none;
+            float: left;
+            line-height: 40px;
+            margin-left: 50px;
+            font-size: 13px;
+            color: white;
+        }
+        .logo{
+            height: 100px;
+            width: 1366px;
+        }
+        .logopic{
+            width: 300px;
+            height: 100px;
+            float: left;
+            text-align: right;
+        }
+        .logopic1{
+            width: 300px;
+            height: 100px;
+            float: left;
+            text-align: right;
+        }.logopic2{
+            width: 300px;
+            height: 100px;
+            float: left;
+            text-align: right;
+        }.logopic3{
+            width: 300px;
+            height: 100px;
+            float: left;
+            text-align: right;
+        }
+        
+        .menu{
+            width: 1366px;
+            height: 100px;
+            float: left;
+            background: black;
+            color: white;
+        }
+        .menu a{
+            text-decoration: none;
+        }
+        .menu ul li{
+            
+            list-style: none;
+            float: left;
+            line-height: 100px;
+            margin-left: 35px;
+            font-size: 20px;
+            color: white;
+        }
+        .slider{
+            height: 300px;
+            width: 1366px;
+        }
+        .head{
+            height: 100px;
+            width: 1366px;
+            //background: red;
+            margin-top: 200px;
+            text-align: center;
+        }
+        .box{
+            height: 250px;
+            width: 1366px;
+           // background: red;
+            box-sizing: border-box;
+            padding-top: 20px;
+            padding-left: 35px;
+        }
+        .card{
+            height: 200px;
+            width: 250px;
+            background: #f37e48;
+            float: left;
+            margin-left: 5px;
+            box-sizing: border-box;
+            color: white;
+            padding-left: 30px;
+            padding-top: 50px;
+        }
+        .reasons{
+            height: 600px;
+            width: 1366px;
+            box-sizing: border-box;
+            padding-top: 80px;
+            padding-left: 50px;
+        }
+        .reasonscard{
+            height: 450px;
+            width: 350px;
+            //background: red;
+            float: left;
+            margin-left: 50px;
+            float: left;
+            border: .1px solid #f0f0f0;
+        }
+        .up{
+            height: 225px;
+            width: 350px;
+        }
+        .down{
+            height: 225px;
+            width: 350px;
+            padding-top: 20px;
+        }
+        .down p{
+            font-size: 15px;
+            padding-top: 10px;
+        }
+        .down input{
+            height: 30px;
+            width: 120px;
+            margin-top: 40px;
+            margin-left: 180px;
+            background: #f78233;
+            border-radius: 20px;
+            border: 0px;
+            color: white;
+        }
+        .background{
+            height: 300px;
+            width: 1366px;
+            
+        }
+        .education{
+            border: .1px solid black;
+            height: 500px;
+            width: 1366px;
+           // background: red;
+            margin-top: 40px;
+            box-sizing: border-box;
+            padding-top: 40px;
+        }
+        .edutop{
+            height: 250px;
+            width: 1366px;
+        }
+        .edubottom{
+            height: 250px;
+            width: 1366px;
+        }
+        .educards{
+            height: 200px;
+            width: 400px;
+           // background: blue;
+            margin-left: 100px;
+            float: left;
+        }
+        
+        .educards1{
+            height: 200px;
+            width: 400px;
+            //background: blue;
+            margin-left: 5px;
+            float: left;
+        }
+        .educards2{
+            height: 200px;
+            width: 400px;
+           // background: blue;
+            margin-left: 5px;
+            float: left;
+        }
+        
+        .educards3{
+            height: 200px;
+            width: 400px;
+           // background: yellow;
+            margin-left: 100px;
+            //margin-top: 210px;
+           float: left;
+        }
+        
+        .educards4{
+            height: 200px;
+            width: 400px;
+            //background: yellow;
+            margin-left: 5px;
+            //margin-top: 210px;
+            float: left;
+           
+        }
+        
+        .educards5{
+            height: 200px;
+            width: 400px;
+            //background: yellow;
+            margin-left: 5px;
+            //margin-top: 210px;
+            float: left;
+            box-sizing: border-box;
+           
+        }
+        .eduleft{
+            height: 150px;
+            width: 100px;
+            float: left;
+        }
+        .eduRight{
+            height: 200px;
+            width: 200px;
+            float: left;
+            padding-left: 10px;
+            text-align: justify;
+        }
+        .test1{
+            height: 100px;
+            width: 1366px;
+            margin-top: 30px;
+        }
+        .Ufooter{
+            height: 400px;
+            width: 1366px;
+            box-sizing: border-box;
+            padding-top: 10px;
+        }
+        .Lfooter{
+            height: 400px;
+            width: 400px;
+            float: left;
+            padding-left: 100px;
+        }
+        .Midfooter{
+            height: 400px;
+            width: 200px;
+            float: left;
+            padding-top: 20px;
+            padding-left: 10px;
+        }
+        .Midfooter2{
+            height: 400px;
+            width: 200px;
+            float: left;
+            padding-left: 10px;
+            padding-top: 20px;
+        }
+        .Rfooter{
+            height: 400px;
+            width: 400px;
+            //padding-left: 30px;
+            //text-align: center;
+           
+            float: left;
+        }
+        .footer{
+            height: 50px;
+            width: 1000px;
+            background: black;
+            color: white;
+            line-height: 50px;
+           box-sizing: border-box;
+            padding-right: 250px;
+        }
+    </style>
+    
+    </head>
+<body>
+    <div class="header">
+    <ul>
+            <a href="#"><li>Study Login/Apply</li></a>
+            <a href="#"><li>Institute Login</li></a>
+            <a href="#"><li>Channels</li></a>
+            <a href="#"><li>Context</li></a>
+            <a href="#"><li>FAQs</li></a>
+            <a href="#"><li>NewsFeed</li></a>
+            <a href="#"><li>New Institue Registration</li></a>
+           
+           
+            
+            </ul>
+         <input style="height: 30px; width: 200px; margin-left: 15px;margin-top: 5px;" type="text" placeholder="Search Here">
+            <input type="button" value="Search Here" style="height: 30px; width: 100px; margin-left: 5px;margin-top: 5px;">
+    </div>
+    
+    <div class="logo">
+    <div class="logopic">
+        <img style="margin-left: 50px;margin-top: 10px;" src="images/study1.PNG">
+        </div>
+    <div class="logopic1">
+        <img  style="margin-left: 60px;margin-top: 40px;" src="images/call1.PNG">
+        <span style="margin-left: 15px;">call Us +91-3839283292</span>
+        </div>
+    <div class="logopic2">
+        <img  style="margin-left:20px;margin-top: 40px;" src="images/mail.PNG">
+        <span style="margin-left: 5px;">Mail Us techshubham10@gamil.com</span>
+        </div>
+    <div class="logopic3">
+        <img  style="margin-left:15px;margin-top: 35px;" src="images/gov1.PNG">
+        </div>
+    
+    </div>
+    <div class="menu">
+        <ul>
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>Why India</li></a>
+            <a href="#"><li>Plan Your Studies</li></a>
+            <a href="#"><li>Buddhism</li></a>
+            <a href="#"><li>SCHOLARSHIP AND WAIVERS</li></a>
+            <a href="#"><li>Plan Your Stay</li></a>
+            <a href="#"><li>Pragati</li></a>
+            <a href="#"><li>Blog</li></a>
+            <a href="#"><li>Contact</li></a>
+            <a href="#"><li>About</li></a>
+            
+            
+            </ul>
+            
+        </div>
+    <div class="slider">
+    <img src="images/slider1.PNG" height="300px" width="1366px;">
+    </div>
+    
+    <div class="head">
+    <p>Study in India</p>
+        <h1>5 Steps to study in India</h1>
+    </div>
+    
+    <div class="box">
+    <div class="card"><h3>REGISTER<br>HERE</h3>
+        <img src="images/btn.PNG">
+        </div>
+    <div class="card" style="background: #f18b37;">
+        <h3>PLAN YOUR</h3><h5>BUDGET</h5> <img src="images/btn1.PNG">
+        </div>
+    <div class="card"><h3>SUBMIT <br>APPLICATION</h3>
+        <img src="images/btn.PNG"></div>
+    <div class="card" style="background: #f18b37;"><h3>CHECK<br>RESULTS</h3>
+        <img src="images/btn.PNG"></div>
+    <div class="card"><h3>PLAN FOR<br>DEPARTURE</h3>
+        <img src="images/btn.PNG"></div>
+    </div>
+    <h2 style="text-align: center; margin-top: 10px;" >YOUR Reasons to be here</h2>
+    
+    <div class="reasons">
+    <div class="reasonscard">
+        <div class="up">
+         <img height="225px" width="350" src="images/img2.jpg">
+        </div>
+        <div class="down">
+        <h3>Why India?</h3>
+            <p>Whether yor passion is constructs of tecnology  or the basis of traditional medcine-india is land where may fields old and new, find representation. constructs of tecnology  or the basis of traditional medcine-india is land where may fields old and new, find representation.</p>
+            <input type="button" value="READ MORE">
+        </div>
+        </div>
+    <div class="reasonscard">
+       <div class="up">
+         <img height="225px" width="350" src="images/img3.jpg">
+        </div>
+        <div class="down">
+        <h3>Why India?</h3>
+            <p>Whether yor passion is constructs of tecnology  or the basis of traditional medcine-india is land where may fields old and new, find representation. constructs of tecnology  or the basis of traditional medcine-india is land where may fields old and new, find representation.</p>
+            <input type="button" value="READ MORE">
+        </div>
+        </div>
+    <div class="reasonscard">
+        <div class="up">
+         <img height="225px" width="350" src="images/img4.jpg">
+        </div>
+        <div class="down">
+        <h3>Why India?</h3>
+            <p>Whether yor passion is constructs of tecnology  or the basis of traditional medcine-india is land where may fields old and new, find representation. constructs of tecnology  or the basis of traditional medcine-india is land where may fields old and new, find representation.</p>
+            <input type="button" value="READ MORE">
+        </div>
+        </div>
+    </div>
+    <div class="background">
+    <img src="images/bacground.PNG" height="300px;" width="1366px">
+    </div>
+    <h1 style="text-align: center;margin-top: 50px;">Towards Higher Education</h1>
+    <div class="education">
+        <div class="edutop">
+    <div class="educards">
+            <div class="eduleft">
+            <img src="images/img10.jpg" height="110px" width="100px;">
+               
+        </div>
+            <div class="eduright">
+         <h3>Plan Your Finance</h3>
+          <p>Get Focused on scope of study in india fro the merits of all institutes
+                to the ones suited your passion.Explore the Indian Education System.
+                </p>
+        </div>
+            </div>
+    <div class="educards1">            <div class="eduleft">
+            <img src="images/img11.jpg" height="110px" width="100px;">
+               
+        </div>
+            <div class="eduright">
+         <h3>Plan Your Finance</h3>
+          <p>Get Focused on scope of study in india fro the merits of all institutes
+                to the ones suited your passion.Explore the Indian Education System.
+                </p>
+        </div></div>
+    <div class="educards2">            <div class="eduleft">
+            <img src="images/img13.jpg" height="110px" width="100px;">
+               
+        </div>
+            <div class="eduright">
+         <h3>Plan Your Finance</h3>
+          <p>Get Focused on scope of study in india fro the merits of all institutes
+                to the ones suited your passion.Explore the Indian Education System.
+                </p>
+        </div></div></div>
+        <div class="edubottom">
+    <div class="educards3">            <div class="eduleft">
+            <img src="images/img15.jpg" height="110px" width="100px;">
+               
+        </div>
+            <div class="eduright">
+         <h3>Plan Your Finance</h3>
+          <p>Get Focused on scope of study in india fro the merits of all institutes
+                to the ones suited your passion.Explore the Indian Education System.
+                </p>
+        </div></div>
+    <div class="educards4">            <div class="eduleft">
+            <img src="images/img6.jpg" height="110px" width="100px;">
+               
+        </div>
+            <div class="eduright">
+         <h3>Plan Your Finance</h3>
+          <p>Get Focused on scope of study in india fro the merits of all institutes
+                to the ones suited your passion.Explore the Indian Education System.
+                </p>
+        </div></div>
+    <div class="educards5">            <div class="eduleft">
+            <img src="images/img8.jpg" height="110px" width="100px;">
+               
+        </div>
+            <div class="eduright">
+         <h3>Plan Your Finance</h3>
+          <p>Get Focused on scope of study in india fro the merits of all institutes
+                to the ones suited your passion.Explore the Indian Education System.
+                </p>
+        </div></div></div>
+    </div>
+    <div class="test1">
+    <img src="images/test1.PNG" width="1366px;" height="100px;">
+    </div>
+    <h1 style="text-align: center;margin-top: 20px;">BLOG</h1>
+    <hr style="margin:40px;">
+    
+    <div class="Ufooter">
+    <div class="Lfooter">
+        <img src="images/study1.PNG">
+        <p style="margin-top: 10px;">Education is emerging to be one of the top focuses<br>of all developing nations around <br>the world.</p>
+        <h3 style="margin-top: 50px;">FOLLOW US ON</h3>
+        <img style="margin-top: 10px;" src="images/fbb.PNG">
+        <img src="images/tweet.PNG">
+        <img src="images/insta.PNG">
+        </div>
+    <div class="Midfooter">
+        <h3 style="">Programme</h3>
+        <p style="margin-top: 20px;">Under Graduate</p>
+        <p style="margin-top: 10px;">Post Graduate</p>
+        <p style="margin-top: 10px;">PHD</p>
+        </div>
+    <div class="Midfooter2">
+        <h3>Importants Links</h3>
+        <p style="margin-top: 20px;">HOME</p>
+        <p style="margin-top: 10px;">INDIAN HIGHER EDUCATION</p>
+        <p style="margin-top: 10px;">VISA RULES</p>
+        <p style="margin-top: 10px;">PRIVACY POLICY</p>
+        <p style="margin-top: 10px;">EVENTS</p>
+        
+        </div>
+    <div class="Rfooter">
+        <h3 style="text-align: center;">Contacts</h3>
+        <img style="margin-left: 60px;margin-top: 10px;"src="images/addres.PNG">
+        <p style="text-align: center;">EDCIL (INDIA) LIMITED
+        <br>(A Miniratna CPSE Under Ministry of <br> Education of Government of India).
+            
+        </p>
+        
+        <img style="margin-left: 60px;margin-top: 1px;" src="images/location.PNG">
+        <p  style="text-align: center;">Khalilabad Sant Kabir Nagar<br> U.P. 272175 India</p>
+        
+        <img style="margin-left: 60px;margin-top: 1px;"  src="images/call2.PNG">
+        <p style="text-align: center;"><b>+91-9383828374</b></p>
+        
+        <img style="margin-left: 60px;margin-top: 1px;" src="images/fbb.PNG">
+        <p style="text-align: center;">Facebook Messenger</p>
+        
+        <img style="margin-left: 60px;margin-top: 1px;" src="images/mail1.PNG">
+        <p style="text-align: center;">techshubham10@gmail.com</p>
+        </div>
+    </div>
+    <br>
+    <div class="footer">
+        <br><br>
+    &copy;2021 All Rights Reserved.
+    </div>
+    </body>
+    
+</html>
